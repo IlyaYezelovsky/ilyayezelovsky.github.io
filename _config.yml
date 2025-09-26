@@ -4,7 +4,7 @@ baseurl: "/ilyayezelovsky.github.io"  # 你的仓库名
 url: "https://ilyayezelovsky.github.io"
 
 # 主题（可选，GitHub默认主题很简洁）
-remote_theme: pages-themes/cayman@v0.2.0
+remote_theme: jekyll-theme-cayman
 
 # 插件
 plugins:
