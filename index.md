@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 首页
+title: Home
 nav_order: 1
 ---
 
