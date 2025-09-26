@@ -1,39 +1,8 @@
 ---
 ---
 
-// 导入主题
+// 先导入主题
 @import "{{ site.theme }}";
 
-// 自定义颜色变量
-:root {
-  --primary-color: #4870FF;  // 海绿色（主色调）
-  --link-color: #4870FF;     // 链接颜色
-  --button-color: #00B0FF;   // 按钮颜色
-  --text-color: #000000;     // 文字颜色
-}
-
-// 覆盖主题样式
-.main-content {
-  h1, h2, h3, h4, h5, h6 {
-    color: var(--primary-color);
-  }
-  
-  a {
-    color: var(--link-color);
-    text-decoration: none;
-    
-    &:hover {
-      color: darken(var(--link-color), 10%);
-      text-decoration: underline;
-    }
-  }
-  
-  .btn {
-    background-color: var(--button-color);
-    border-color: var(--button-color);
-    
-    &:hover {
-      background-color: darken(var(--button-color), 10%);
-    }
-  }
-}
+// 再导入自定义样式
+@import "custom";
