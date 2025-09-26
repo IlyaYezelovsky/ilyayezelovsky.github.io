@@ -1,0 +1,36 @@
+// 定义颜色变量
+$primary-color: #4870FF;
+$link-color: #4870FF;
+$button-color: #00B0FF;
+$text-color: #000000;
+
+// 覆盖主题样式
+.page-header {
+  background-color: $primary-color;
+  background-image: linear-gradient(120deg, $primary-color, darken($primary-color, 10%));
+}
+
+.main-content {
+  h1, h2, h3, h4, h5, h6 {
+    color: $primary-color;
+  }
+  
+  a {
+    color: $link-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: darken($link-color, 15%);
+      text-decoration: underline;
+    }
+  }
+  
+  .btn {
+    background-color: $button-color;
+    border-color: $button-color;
+    
+    &:hover {
+      background-color: darken($button-color, 10%);
+    }
+  }
+}
