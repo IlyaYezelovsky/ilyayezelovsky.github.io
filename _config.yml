@@ -1,0 +1,18 @@
+title: "IlyaYezelovsky's Lab"
+description: "Nothing but a mess room."
+baseurl: "/ilyayezelovsky.github.io"  # 你的仓库名
+url: "https://ilyayezelovsky.github.io"
+
+# 主题（可选，GitHub默认主题很简洁）
+remote_theme: pages-themes/cayman@v0.2.0
+
+# 插件
+plugins:
+  - jekyll-relative-links
+  - jekyll-default-layout
+
+# 导航
+header_pages:
+  - index.md
+  - docs/guide.md
+  - docs/api.md
